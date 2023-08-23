@@ -1,7 +1,7 @@
-![MaterHead](https://github.com/daraaveasna/academicPAY/blob/main/githubBanner.gif)
+![MaterHead](https://github.com/daraaveasna/academicPAY/blob/main/academicPay/src/assets/githubBanner.gif)
 <div align="center">
 
-![](https://github.com/daraaveasna/academicPAY/blob/main/academicPay.svg)
+![](https://github.com/daraaveasna/academicPAY/blob/main/academicPay/src/assets/academicPay.svg)
 
 ***:octocat: </ AcademicPAY>***   
 </div>
