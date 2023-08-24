@@ -60,13 +60,13 @@
 </div>
 
 # Members <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
-* [TOM Tito](https://github.com/SreypichTO) - *Leader*
-* [VEASNA Dara](https://github.com/daraaveasna)
-* [ANG Ousa](https://github.com/daraaveasna)
-* [HOK Sochetra](https://github.com/daraaveasna)
-* [SORPORN Sovortey](https://github.com/daraaveasna)
-* [POM Mouylang](https://github.com/daraaveasna)
-* [SOEM Seakmeng](https://github.com/daraaveasna)
+* [TOM Tito](https://github.com/TOM-TITO-coder)      - *`Chief`*
+* [VEASNA Dara](https://github.com/daraaveasna)      - `UX/UI Designer & Developer`
+* [ANG Ousa](https://github.com/ANG-OUSA)            - `Developer`
+* [HOK Sochetra](https://github.com/tra99)           - `Developer` 
+* [SORPORN Sovortey](https://github.com/sovortey514) - `Developer`
+* [POM Mouylang](https://github.com/POMMOUYLANG)     - `Developer`
+* [SOEM Seakmeng](https://github.com/Seakmeng001)    - `Developer`
 
 ###
 
