@@ -11,7 +11,8 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 </h4>
-<b>AcademicPAY</b> is Payroll Management: Efficiently manage salaries for teaching staff, including different tiers such as PHD holders, master's degree holders, administrative staff, and support personnel.
+
+*`AcademicPAY`* : Elevate university's payroll management with AcademicPAY—a dynamic solution designed to seamlessly manage salaries across various staff categories. From esteemed PHD holders to dedicated administrative and support personnel, AcademicPAY automates precise salary calculations based on qualifications, experience, and roles. This streamlined approach ensures tailored compensation, promotes transparency, and empowers administrators with real-time oversight. By fostering trust and inclusivity, AcademicPAY sets a new standard in payroll management, adapting to evolving needs while championing equitable remuneration for all contributors to the educational ecosystem.
 
 # Features 
 - <b><i>Automatic Salary Calculation</i></b>: Automate the process of calculating salaries based on factors like qualifications, experience, and position.
@@ -83,3 +84,6 @@ git clone https://github.com/daraaveasna/academicPAY
 If you have any questions, feedback, or concerns, feel free to reach out to our support team at [support@academicPAY.com.kh](niccolo27.dev@gmail.com)
 # License 
 AcademicPAY is released under the [MIT](https://opensource.org/license/mit/) License. You are free to use, modify, and distribute this software following the terms of the license.
+
+<!-- Footer -->
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%">
