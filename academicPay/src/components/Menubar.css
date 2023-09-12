@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;800&display=swap');
+*{
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primaryColor:#3B82F6;
+    --dashboaedColor:#F6F6F6;
+    --navtext:#70809A;
+    --navborderColor:#E9E9E9;
+    --tableColor:#FFF;
+    --maintextColor:#6F809A;
+    --textColor:#0F172A;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding:2rem;
+    margin-top: 2rem;
+}
+.menubar .left{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.menubar .left img{
+    width: 60px;
+}
+.menubar .left .double-left{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.menubar .left .dropdown{
+    float: left;
+    overflow: hidden;
+}
+.menubar .left .dropdown-year button{
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primaryColor);
+    color: #FFF;
+}
+.menubar .left .dropdown-det button{
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--textColor); 
+    background-color: #fff;
+    font-weight: 600;
+}
+.menubar .right{
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.menubar .right .search-bar{
+    width: 400px;
+    height: 50px;   
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--textColor);
+    background-color: #fff;
+    color: #6F809A;
+    border-radius: 50px;
+    padding: 0rem 0.5rem ;
+}
+.menubar .right .search{
+    width: 20px;
+    height: 30px;
+}
+.menubar .right input{
+    width: 350px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    color: #6F809A;
+}
+.menubar .right .btn-add{
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    border: none;
+    background-image: linear-gradient(to top, #8B5CF6, #3B82F6);
+    color: #FFF;
+}
