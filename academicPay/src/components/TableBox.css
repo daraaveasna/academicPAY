@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;800&display=swap');
+*{
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --gradientColor: linear-gradient(to top, #8B5CF6, #3B82F6);
+    --primaryColor:#3B82F6;
+    --dashboaedColor:#F6F6F6;
+    --navtext:#70809A;
+    --navborderColor:#E9E9E9;
+    --tableColor:#FFF;
+    --maintextColor:#6F809A;
+    --textColor:#0F172A;
+}
+.tablebox{
+    background-color: var(--tableColor);
+    max-width: 1400px;
+    margin: auto;
+    border: 1px solid var(--tableColor);
+    border-radius: 25px;
+    margin-top: 1.5rem;
+}
