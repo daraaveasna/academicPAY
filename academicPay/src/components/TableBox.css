@@ -17,9 +17,9 @@
 }
 .tablebox{
     background-color: var(--tableColor);
-    max-width: 1400px;
+    max-width: 1700px;
     margin: auto;
     border: 1px solid var(--tableColor);
     border-radius: 25px;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../components/Navbar.css"
-import logo from "../assets/academicPay.jpg"
+import logo from "../assets/AcademicPay_black.png"
 
 const Navbar = () => {
   return (

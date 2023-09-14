@@ -24,7 +24,7 @@ header{
     background-color: var(--dashboaedColor);
 }
 header img{
-    width: 220px;
+    width: 250px;
 }
 header nav{
     background-color: var(--navborderColor);

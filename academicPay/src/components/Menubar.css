@@ -29,7 +29,7 @@
     gap: 2rem;
 }
 .menubar .left img{
-    width: 60px;
+    width: 65px;
 }
 .menubar .left .double-left{
     display: flex;
@@ -41,7 +41,8 @@
     overflow: hidden;
 }
 .menubar .left .dropdown-year button{
-    padding: 0.5rem 1rem;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -51,7 +52,8 @@
     color: #FFF;
 }
 .menubar .left .dropdown-det button{
-    padding: 0.5rem 1rem;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     gap: 1rem;
