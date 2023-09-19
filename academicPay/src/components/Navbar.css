@@ -1,67 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;800&display=swap');
-*{
-    font-family: 'Kantumruy Pro', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;800&display=swap");
+* {
+  font-family: "Kantumruy Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-:root{
-    --gradientColor: linear-gradient(to top, #8B5CF6, #3B82F6);
-    --primaryColor:#3B82F6;
-    --dashboaedColor:#F6F6F6;
-    --navtext:#70809A;
-    --navborderColor:#E9E9E9;
-    --tableColor:#FFF;
-    --maintextColor:#6F809A;
-    --textColor:#0F172A;
+:root {
+  --gradientColor: linear-gradient(to top, #8b5cf6, #3b82f6);
+  --primaryColor: #3b82f6;
+  --dashboaedColor: #f6f6f6;
+  --navtext: #70809a;
+  --navborderColor: #e9e9e9;
+  --tableColor: #fff;
+  --maintextColor: #6f809a;
+  --textColor: #0f172a;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding:2rem;
-    background-color: var(--dashboaedColor);
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 2rem;
+  background-color: var(--dashboaedColor);
 }
-header img{
-    width: 250px;
+header img {
+  width: 250px;
 }
-header nav{
-    background-color: var(--navborderColor);
-    border-radius: 50px;
-    padding: 1rem 0;
+header nav {
+  background-color: var(--navborderColor);
+  border-radius: 50px;
+  padding: 1rem 0;
 }
-header nav a{
-    color: var(--navtext);
-    text-decoration: none;
-    margin: 1rem;
-    position: relative;
-    left: 15px;
+header nav a {
+  color: var(--navtext);
+  text-decoration: none;
+  margin: 1rem;
+  position: relative;
+  left: 15px;
 }
-header nav .active{
-    border-radius: 50px;
-    background-image: linear-gradient(to top, #8B5CF6, #3B82F6);
-    color: var(--tableColor);
-    padding: 1rem 2rem;
+header nav .active {
+  border-radius: 50px;
+  background-image: var(--gradientColor);
+  color: var(--tableColor);
+  padding: 1rem 2rem;
 }
 
-header .account{
-    border-radius: 50px;
-    background-color: var(--textColor);
-    color: var(--tableColor);
-    padding: 0.1rem 0;
-    width: 240px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-
+header .account {
+  border-radius: 50px;
+  background-color: var(--textColor);
+  color: var(--tableColor);
+  padding: 0.1rem 0;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header .account span{
-    background-color: var(--tableColor);
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+header .account span {
+  background-color: var(--tableColor);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
 }
-header .account p{
-    text-align: center;
+header .account p {
+  text-align: center;
 }

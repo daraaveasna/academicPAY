@@ -1,103 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;800&display=swap');
-*{
-    font-family: 'Kantumruy Pro', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;800&display=swap");
+* {
+  font-family: "Kantumruy Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-:root{
-    --primaryColor:#3B82F6;
-    --dashboaedColor:#F6F6F6;
-    --navtext:#70809A;
-    --navborderColor:#E9E9E9;
-    --tableColor:#FFF;
-    --maintextColor:#6F809A;
-    --textColor:#0F172A;
+:root {
+  --gradientColor: linear-gradient(to top, #8b5cf6, #3b82f6);
+  --primaryColor: #3b82f6;
+  --dashboaedColor: #f6f6f6;
+  --navtext: #70809a;
+  --navborderColor: #e9e9e9;
+  --tableColor: #fff;
+  --maintextColor: #6f809a;
+  --textColor: #0f172a;
 }
-.menubar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    padding:2rem;
-    margin-top: 2rem;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 2rem;
+  margin-top: 1.8rem;
 }
-.menubar .left{
-    width: 330px;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.container .left {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-.menubar .left img{
-    width: 65px;
+.container .left img {
+  width: 65px;
 }
-.menubar .left .double-left{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
+.container .left .double-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
-.menubar .left .dropdown{
-    float: left;
-    overflow: hidden;
+.container .left .dropdown {
+  float: left;
+  overflow: hidden;
 }
-.menubar .left .dropdown-year button{
-    padding: 1.2rem 2.5rem;
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--primaryColor);
-    color: #FFF;
+.container .left .dropdown-year button {
+  padding: 1.2rem 2rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  color: #fff;
 }
-.menubar .left .dropdown-det button{
-    padding: 1.2rem 2.5rem;
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    border: none;
-    border-radius: 5px;
-    border: 1px solid var(--textColor); 
-    background-color: #fff;
-    font-weight: 600;
+.container .left .dropdown-det button {
+  padding: 1.2rem 2rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid var(--textColor);
+  background-color: #fff;
+  font-weight: 600;
 }
-.menubar .right{
-    /* width: 500px; */
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.container .right {
+  /* width: 500px; */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-.menubar .right .search-bar{
-    width: 400px;
-    height: 50px;   
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    border: 1px solid var(--textColor);
-    background-color: #fff;
-    color: #6F809A;
-    border-radius: 50px;
-    padding: 0rem 0.5rem ;
+.container .right .search-bar {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid var(--textColor);
+  background-color: #fff;
+  color: #6f809a;
+  border-radius: 50px;
+  padding: 0rem 0.5rem;
 }
-.menubar .right .search{
-    width: 20px;
-    height: 30px;
+.container .right .search {
+  width: 20px;
+  height: 30px;
 }
-.menubar .right input{
-    width: 350px;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    padding: 0.2rem;
-    color: #6F809A;
+.container .right input {
+  width: 350px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 0.2rem;
+  color: #6f809a;
 }
-.menubar .right .btn-add{
-    width: 50px;
-    height: 50px;
-    border-radius: 55px;
-    border: none;
-    background-image: linear-gradient(to top, #8B5CF6, #3B82F6);
-    color: #FFF;
+.container .right .btn-add {
+  width: 50px;
+  height: 50px;
+  border-radius: 55px;
+  border: none;
+  background-image: var(--gradientColor);
+  color: #fff;
 }

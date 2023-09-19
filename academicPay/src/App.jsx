@@ -1,14 +1,19 @@
-import React from 'react'
-import "./App.css"
-import Navbar from './components/Navbar'
-import TableBox from './components/TableBox'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DashboardPage1 from "./pages/Dashboard1/DashboardPage1";
+import "./App.css";
 const App = () => {
   return (
     <React.Fragment>
-      <Navbar />
-      <TableBox />
+      <DashboardPage1 />
     </React.Fragment>
-  )
-}
 
-export default App
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/ " element={<DashboardPage1 />} />
+    //   </Routes>
+    // </BrowserRouter>
+  );
+};
+
+export default App;
