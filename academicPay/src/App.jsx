@@ -1,19 +1,20 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import DashboardPage1 from "./pages/Dashboard1/DashboardPage1";
-import "./App.css";
-const App = () => {
-  return (
-    <React.Fragment>
-      <DashboardPage1 />
-    </React.Fragment>
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import DashboardPage1 from "./pages/DashboardPage1";
+import DashboardPage2 from "./pages/DashboardPage2";
 
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/ " element={<DashboardPage1 />} />
-    //   </Routes>
-    // </BrowserRouter>
-  );
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <DashboardPage1 />,
+  },
+  {
+    path: "/about",
+    element: <DashboardPage2 />,
+  },
+]);
+const App = () => {
+  return <RouterProvider router={router} />;
 };
 
 export default App;
