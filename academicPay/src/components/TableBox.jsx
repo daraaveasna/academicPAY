@@ -17,6 +17,9 @@ const TableBox = () => {
       <h1>AcedemicPay</h1>
       <h1>AcedemicPay</h1>
       <h1>AcedemicPay</h1>
+      <h1>AcedemicPay</h1>
+      <h1>AcedemicPay</h1>
+      <h1>AcedemicPay</h1>
     </section>
   );
 };

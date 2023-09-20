@@ -1,17 +1,16 @@
-import "../components/Navbar.css";
 import logo from "../assets/AcademicPay_black.png";
+import "../components/Nav.css";
 import { Link } from "react-router-dom";
-
-const Navbar = () => {
+const Nav = () => {
   return (
     <header>
       <img src={logo} alt="" />
-      <nav>
-        <Link to="/">ព័ត៌មានទូទៅ</Link>
-        <Link className="active" to="/about">
-          ព័ត៌មានលម្អិត
+      <div className="nav">
+        <Link className="action" to="/">
+          ព័ត៌មានទូទៅ
         </Link>
-      </nav>
+        <Link to="/about">ព័ត៌មានលម្អិត</Link>
+      </div>
       <div className="account">
         <span></span>
         <div>
@@ -24,4 +23,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;

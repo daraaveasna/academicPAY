@@ -7,6 +7,7 @@ const DashboardPage2 = () => {
     <React.Fragment>
       <Navbar />
       <TableBox />
+      <h1 style={{ textAlign: "center" }}>Dashboard2</h1>
     </React.Fragment>
   );
 };

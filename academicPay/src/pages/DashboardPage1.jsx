@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import TableBox from "../components/TableBox";
+import Nav from "../components/Nav";
 
 const DashboardPage1 = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <Nav />
       <TableBox />
+      <h1 style={{ textAlign: "center" }}>Dashboard1</h1>
     </React.Fragment>
   );
 };
