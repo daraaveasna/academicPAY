@@ -1,5 +1,5 @@
-import "../components/Navbar.css";
 import logo from "../assets/AcademicPay_black.png";
+import "../components/Navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

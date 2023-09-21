@@ -1,6 +1,7 @@
 import logo from "../assets/AcademicPay_black.png";
 import "../components/Nav.css";
 import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <header>
